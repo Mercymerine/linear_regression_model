@@ -51,22 +51,22 @@ A correlation heatmap is generated to identify relationships between numerical f
 ### Modeling
 The following linear models are implemented to predict life expectancy:
 
-######Linear Regression
+###### Linear Regression
 
 Cross-validation is used to evaluate model performance.
 Mean R² score: 0.802.
 
-######Ridge Regression
+###### Ridge Regression
 
 Regularization is applied to prevent overfitting.
 Mean R² score: 0.802.
 
-######Lasso Regression
+###### Lasso Regression
 
 Lasso is used for feature selection and regularization.
 Mean R² score: 0.802.
 
-######ElasticNet
+###### ElasticNet
 
 Combines L1 and L2 regularization.
 Mean R² score: 0.802.
